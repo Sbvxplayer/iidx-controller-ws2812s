@@ -10,7 +10,8 @@ Software that enables you to create your own Arduino based beatmania IIDX contro
 # Requirements
  - An Arduino Leonardo (technically compatible with any ATmega32U4 based board, but only tested with a Leonardo).
  - The [Bounce2](https://www.arduino.cc/reference/en/libraries/bounce2/) library.
- - A WS2812 LED Strip if you would like lighting features
+ - The FASTLED library for lighting support (not required to make the code work) (https://github.com/FastLED/FastLED)
+
 
 # Uploading the code
 Because this code uses LUFA, the process of uploading is a bit more different.
